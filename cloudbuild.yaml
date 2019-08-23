@@ -3,5 +3,5 @@ steps:
   args: ['clean', 'stage']
 - name: 'gcr.io/cloud-builders/docker'
   args: ['build', '--tag=gcr.io/dacreed/play-demo', '.']
-images: ['gcr.io/dacreed/paly-demo']
+images: ['gcr.io/dacreed/play-demo']
 tags: ['cloud-builders-community']
